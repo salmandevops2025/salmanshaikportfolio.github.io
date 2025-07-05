@@ -1,121 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Salman Shaik Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #149ddd;
-      color: #fff;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header h2 {
-      margin: 10px 0;
-      font-size: 1.2em;
-    }
-    .section {
-      padding: 30px 20px;
-      background: #fff;
-      margin: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .section h3 {
-      border-bottom: 2px solid #149ddd;
-      padding-bottom: 5px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    .contact {
-      font-size: 0.95em;
-      line-height: 1.6;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #149ddd;
-      color: #fff;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salman Shaik | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Salman Shaik - DevOps Engineer and Cloud Enthusiast">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>SALMAN SHAIK</h1>
-    <h2>Hyderabad, IND</h2>
-    <div class="contact">
-      📱 9849436033 | ✉ shaiksalman0409@gmail.com
+  <!-- Header -->
+  <header class="header">
+    <div class="profile-img text-center">
+      <img src="images/profile.jpg" alt="Salman Shaik">
+    </div>
+    <div class="logo text-center">
+      <h1>Salman Shaik</h1>
+    </div>
+    <div class="social-links text-center">
+      <a href="https://github.com/salmandevops2025" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/salmandevops2025" target="_blank">LinkedIn</a>
     </div>
   </header>
 
-  <section class="section">
-    <h3>Professional Summary</h3>
-    <p>Dynamic Cloud Support Engineer Specialist with 3.5+ years of experience in cloud infrastructure, DevOps, and automation, specializing in AWS and GCP. Skilled in managing large-scale environments using EKS, EC2, GKE, and Compute Engine. Experienced in automating CI/CD pipelines with Jenkins, integrating AWS services like Lambda and S3, and GCP services like Cloud Functions and Cloud Storage. Proficient in implementing SonarQube for code quality, managing artifacts with AWS CodeArtifact and Nexus Repository, and enhancing system performance using AWS CloudWatch, CloudTrail, and GCP Operations Suite. Strong expertise in incident management, troubleshooting, and ensuring secure, scalable cloud deployments.</p>
-  </section>
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center justify-content-center">
+      <div class="container text-center">
+        <h2>Hello, I'm <strong>Salman Shaik</strong></h2>
+        <p>A <span>DevOps Engineer</span> passionate about automation, CI/CD, and Cloud.</p>
+      </div>
+    </section>
 
-  <section class="section">
-    <h3>Work Experience</h3>
-    <ul>
-      <li><strong>DevOps Engineer</strong> – TCS | Ultimatix CICD Project | May 2024 – Present<br/>Managed EKS, EC2, Jenkins CI/CD, integrated SonarQube, CloudWatch, CodeArtifact, etc.</li>
-      <li><strong>DevOps Engineer</strong> – TCS | FnRS Finance Solutions Project | Nov 2023 – Apr 2024<br/>Worked with GCP BigQuery, GKE, automation with GCP CLI, Google Benchmark.</li>
-      <li><strong>Developer</strong> – TCS | CCAI Project | Feb 2023 – Oct 2023<br/>Built conversational AI agents with Dialog Flow CX, integrated GCP services.</li>
-      <li><strong>Developer</strong> – TCS | DocAI Project | Oct 2021 – Feb 2023<br/>Performed ML annotation, used DocAI, Vertex AI, GCP automation, Agile participation.</li>
-    </ul>
-  </section>
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="content">
+          <p>I am a DevOps Engineer with 3 years of experience in building and managing cloud infrastructure using GCP, Jenkins, Terraform, and Kubernetes. I have worked on multiple projects focusing on automation, CI/CD pipelines, and cloud-native solutions.</p>
+          <ul>
+            <li><strong>Email:</strong> shaiksalman0409@gmail.com</li>
+            <li><strong>Phone:</strong> +91 98494 36033</li>
+            <li><strong>Location:</strong> Hyderabad, India</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  <section class="section">
-    <h3>Skills</h3>
-    <ul>
-      <li>Cloud Platforms: GCP, AWS, Azure</li>
-      <li>AWS: EC2, EKS, Lambda, S3, CodeArtifact, CodePipeline, CodeBuild...</li>
-      <li>GCP: GKE, Compute Engine, BigQuery, Cloud Storage, Firestore, Vertex AI</li>
-      <li>CI/CD: Jenkins, Terraform, GitHub, GitLab CI, Nexus, SonarQube</li>
-      <li>OS: Ubuntu, CentOS, Windows</li>
-      <li>Containers: Docker, Kubernetes</li>
-      <li>Dev & Scripting: Python, Java (Beginner)</li>
-    </ul>
-  </section>
+    <!-- Skills Section -->
+    <section class="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress">
+              <span class="skill">Google Cloud Platform <span class="val">90%</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Terraform & Jenkins <span class="val">85%</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress">
+              <span class="skill">Python & Bash <span class="val">75%</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 75%;"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">CI/CD & Monitoring <span class="val">80%</span></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section class="section">
-    <h3>Education</h3>
-    <ul>
-      <li><strong>B.Tech in ECE</strong> – JNTU Anantapur (2018-2021) – 68%</li>
-      <li><strong>Diploma in ECE</strong> – SBTET AP (2014-2017) – 70%</li>
-    </ul>
-  </section>
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-6 info-item">
+              <i class="bi bi-envelope"></i>
+              <h3>Email Me</h3>
+              <p>shaiksalman0409@gmail.com</p>
+            </div>
+            <div class="col-lg-6 info-item">
+              <i class="bi bi-phone"></i>
+              <h3>Call Me</h3>
+              <p>+91 98494 36033</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <section class="section">
-    <h3>Certifications</h3>
-    <ul>
-      <li>Google Cloud Digital Leader</li>
-      <li>Google Associate Cloud Engineer</li>
-      <li>Google Professional Cloud Architect</li>
-      <li>Google Professional Cloud DevOps Engineer</li>
-      <li>AWS Cloud Practitioner</li>
-      <li>AWS SysOps Administrator – Associate</li>
-      <li>Microsoft Azure Fundamentals</li>
-      <li>GitHub Foundation</li>
-      <li>Advanced Business Communication – myLearn</li>
-    </ul>
-  </section>
-
-  <footer>
-    &copy; 2025 Salman Shaik. All rights reserved.
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 Salman Shaik. All Rights Reserved.</p>
+    </div>
   </footer>
+
 </body>
+
 </html>
+
