@@ -13,7 +13,6 @@ import Services from './sections/Services';
 import Experience from './sections/Experience';
 import Certifications from './sections/Certifications';
 import Projects from './sections/Projects';
-import Testimonials from './sections/Testimonials';
 import Stats from './sections/Stats';
 import Contact from './sections/Contact';
 
@@ -44,7 +43,6 @@ export function App() {
         <Experience />
         <Certifications />
         <Projects />
-        <Testimonials />
         <Stats />
         <Contact />
       </main>
