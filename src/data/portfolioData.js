@@ -425,7 +425,7 @@ export const testimonialsData = [
 
 export const statsData = [
   { label: "Years Experience", value: 4, suffix: "+", icon: "Clock" },
-  { label: "Completed Projects", value: 25, suffix: "+", icon: "FolderCheck" },
+  { label: "Completed Projects", value: 4, suffix: "+", icon: "FolderCheck" },
   { label: "Certifications", value: 10, suffix: "", icon: "Award" },
   { label: "Systems & Users Impacted", value: 50, suffix: "K+", icon: "Users" }
 ];
