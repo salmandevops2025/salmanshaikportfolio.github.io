@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Clock, FolderCheck, Award, Users } from 'lucide-react';
+import { Clock, FolderCheck, Award, Users, Cloud } from 'lucide-react';
 import AnimatedCounter from '../components/AnimatedCounter';
 import TiltCard from '../components/TiltCard';
 import { statsData } from '../data/portfolioData';
@@ -10,6 +10,7 @@ const iconMap = {
   FolderCheck: FolderCheck,
   Award: Award,
   Users: Users,
+  Cloud: Cloud,
 };
 
 export const Stats = () => {

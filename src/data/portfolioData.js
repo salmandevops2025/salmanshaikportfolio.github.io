@@ -427,7 +427,7 @@ export const statsData = [
   { label: "Years Experience", value: 4, suffix: "+", icon: "Clock" },
   { label: "Completed Projects", value: 4, suffix: "+", icon: "FolderCheck" },
   { label: "Certifications", value: 10, suffix: "", icon: "Award" },
-  { label: "Systems & Users Impacted", value: 50, suffix: "K+", icon: "Users" }
+  { label: "Cloud Platforms", value: 3, suffix: "", icon: "Cloud" }
 ];
 
 export const educationData = [
